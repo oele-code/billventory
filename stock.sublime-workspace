@@ -1,0 +1,1746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rand",
+				"random_int"
+			],
+			[
+				"array_re",
+				"array_reverse"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"tikcet",
+				"TicketTemplate"
+			],
+			[
+				"q",
+				"quotemeta"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ba",
+				"bandwidths"
+			],
+			[
+				"au",
+				"auxiliary"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"att",
+				"attachment"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"array",
+				"array_chunk"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"ban",
+				"bandwidth_id"
+			],
+			[
+				"ce",
+				"checked\tAttr"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"selec",
+				"selected\tAttr"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"read",
+				"readonly\tAttr"
+			],
+			[
+				"data",
+				"DataTable"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"transmi",
+				"transmitters"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_f",
+				"wp_footer"
+			],
+			[
+				"get_style",
+				"get_stylesheet_uri"
+			],
+			[
+				"wp_e",
+				"wp_enqueue_style"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"iscon",
+				"is_connected"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"4",
+				"4_small.png\tw:376 h:668"
+			],
+			[
+				"2_",
+				"2_small.png\tw:376 h:668"
+			],
+			[
+				"1_",
+				"1_small.png\tw:376 h:668"
+			],
+			[
+				"1",
+				"1.png\tw:1281 h:801"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"c",
+				"cucuta_motors_small.png\tw:100 h:20"
+			],
+			[
+				"n",
+				"initial"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"s",
+				"stock/"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"trs",
+				"transition"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"trams",
+				"transform"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"spac",
+				"space-around"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"tra",
+				"translateY()"
+			],
+			[
+				"rotate",
+				"rotateZ()"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"selc",
+				"selected\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"ani",
+				"anim\tanimation"
+			],
+			[
+				"an",
+				"animdir\tanimation-direction: ${1:normal};"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"sa",
+				"space-between"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"product-",
+				"product-details"
+			],
+			[
+				"car",
+				"cartList"
+			],
+			[
+				"ca",
+				"cartList"
+			],
+			[
+				"Cart",
+				"cartBody"
+			],
+			[
+				"b20",
+				"b250.png\tw:151 h:151"
+			],
+			[
+				"b",
+				"b500.png\tw:150 h:151"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ro",
+				"rotate()"
+			],
+			[
+				"trsa",
+				"transform"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"d",
+				"d-b\tdisplay: block;"
+			],
+			[
+				"fl",
+				"flex-wrap"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"bor",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"font-t",
+				"font-style"
+			],
+			[
+				"font-e",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"sl",
+				"slide2.png\tw:1946 h:907"
+			],
+			[
+				"e",
+				"fortuner.pdf"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "table",
+		"selected_items":
+		[
+			[
+				"table",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"panel-",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-la",
+				"Snippet: bs3-label"
+			],
+			[
+				"bs3-labe",
+				"Snippet: bs3-label-default"
+			],
+			[
+				"bs3-",
+				"Snippet: bs3-badge"
+			],
+			[
+				"liver",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"label",
+				"Snippet: bs3-label-default"
+			],
+			[
+				"bs3-bu",
+				"Snippet: bs3-button-danger"
+			],
+			[
+				"bs3-btn-",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"panel",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-sele",
+				"Snippet: bs3-select"
+			],
+			[
+				"bs3-eme",
+				"Snippet: bs3-media-object"
+			],
+			[
+				"table-re",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bagde",
+				"Snippet: bs3-badge"
+			],
+			[
+				"bs3-gorup-add",
+				"Snippet: bs3-input-group-addon-text"
+			],
+			[
+				"bs3-input-ad",
+				"Snippet: bs3-input-group-addon-text"
+			],
+			[
+				"btn-groi",
+				"Snippet: bs3-link-button-group-vertical"
+			],
+			[
+				"btn-group",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"badeg",
+				"Snippet: bs3-badge"
+			],
+			[
+				"table-",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bs3-form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"bs3-lis",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"list-",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"bs3-fo",
+				"Snippet: bs3-form"
+			],
+			[
+				"bs3-l",
+				"Snippet: bs3-label-info"
+			],
+			[
+				"bs3-bad",
+				"Snippet: bs3-badge"
+			],
+			[
+				"bs3-list",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"bs3-ul",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"bs3-btn-gor",
+				"Snippet: bs3-link-button-group-vertical"
+			],
+			[
+				"pbs3-la",
+				"Snippet: bs3-label-default"
+			],
+			[
+				"bs3-ta",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bs3-tb",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"b",
+				"Boxy Theme: Activation"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcre",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrm",
+				"Package Control: Remove Package"
+			],
+			[
+				"bad",
+				"Snippet: bs3-badge"
+			],
+			[
+				"bs3-page",
+				"Snippet: bs3-page header"
+			],
+			[
+				"bs3-panel",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-pan",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-tabl",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bs3-for",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"pan",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-ch",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"bs3-table-re",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bs3-label",
+				"Snippet: bs3-label"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"bs3-sel",
+				"Snippet: bs3-input-select"
+			],
+			[
+				"bs3-se",
+				"Snippet: bs3-select-h"
+			],
+			[
+				"bs3-lab",
+				"Snippet: bs3-label"
+			],
+			[
+				"bs3-table-s",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"table-res",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"bs3-table",
+				"Snippet: bs3-table"
+			],
+			[
+				"ba",
+				"Snippet: bs3-badge"
+			],
+			[
+				"badge",
+				"Snippet: bs3-badge"
+			],
+			[
+				"bs3-ba",
+				"Snippet: bs3-badge"
+			],
+			[
+				"bs3-rad",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"textare",
+				"Snippet: bs3-textarea"
+			],
+			[
+				"bs3-pa",
+				"Snippet: bs3-panel-danger"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"bs3-select",
+				"Snippet: bs3-select"
+			],
+			[
+				"selec\t",
+				"Snippet: bs3-select-h"
+			],
+			[
+				"ta",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"Panel",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-rang",
+				"Snippet: bs3-input-range"
+			],
+			[
+				"bs3-in",
+				"Snippet: bs3-input-number"
+			],
+			[
+				"select-",
+				"Snippet: bs3-select-h"
+			],
+			[
+				"inte",
+				"Snippet: bs3-input-tel-h"
+			],
+			[
+				"form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"fomr-in",
+				"Snippet: bs3-form-inline"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"labe",
+				"Snippet: bs3-label-info"
+			],
+			[
+				"bs3-pane",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-bag",
+				"Snippet: bs3-badge"
+			],
+			[
+				"tab",
+				"Snippet: bs3-table-striped"
+			],
+			[
+				"la",
+				"Snippet: bs3-label-success"
+			],
+			[
+				"input-text-h",
+				"Snippet: bs3-input-text-h"
+			],
+			[
+				"for",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"bs3 select",
+				"Snippet: bs3-select"
+			],
+			[
+				"lab",
+				"Snippet: bs3-label"
+			],
+			[
+				"bs3-tex",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"panbl",
+				"Snippet: bs3-panel-table"
+			],
+			[
+				"modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"panel-ha",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"panel-head",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"bs3-lara",
+				"Snippet: bs3-label-warning"
+			],
+			[
+				"button",
+				"Snippet: bs3-button-default"
+			],
+			[
+				"bs3-submit",
+				"Snippet: bs3-input-submit"
+			],
+			[
+				"input",
+				"Snippet: input - file"
+			],
+			[
+				"input-tex",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"bs3-btn",
+				"Snippet: bs3-button-toolbar"
+			],
+			[
+				"panel-ge",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"pa",
+				"Snippet: bs3-panel"
+			],
+			[
+				"bs3-tabe",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"pcrem",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/oele/Desarrollo/projects/stocktaking"
+	],
+	"file_history":
+	[
+		"/Users/oele/Desarrollo/projects/wisp/app/Http/Controllers/Customers/ContractsController.php",
+		"/Users/oele/Desarrollo/projects/wisp/app/Http/Controllers/Customers/ServicesController.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/contracts/create.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/services/create.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/show.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/services/index.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/index.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/app/Http/Controllers/Customers/CustomersController.php",
+		"/Users/oele/Desarrollo/projects/wisp/app/Http/routes/customers.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/partials/sidebar.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/services.blade.php",
+		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/services/commission.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/staff/workorders/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/assets/js/main.js",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Staff/WorkOrdersController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/staff/employees/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/invoices/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/routes/staff.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/partials/sidebar.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/routers/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Customers/ServicesController.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Staff/EmployeeController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/staff/employees/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/FilesController.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Customers/ContractsController.php",
+		"/Users/oele/Desarrollo/projects/mym/database/migrations/2017_05_18_103718_create_table_employees.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/transmitters/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Billing/TransactionsController.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Support/TicketsController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/ticket/show.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/TransmittersController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/staff/employees/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/UsersController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/users/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/staff/employees/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/User.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/users/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Staff/Employee.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/upload.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/services/equip.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/services/commission.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/show.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/vendor/phpspec/phpspec/src/PhpSpec/ServiceContainer.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Ticket/TicketCategories.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/users/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/invoice/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/settings.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/SettingsController.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/routes/settings.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/template/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/routes/support.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/ticket/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Support/TicketTemplateController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/templates.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/category/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/category/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/template/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/support/tickets/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Ticket/TicketTemplate.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/routes.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/support.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/customers.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/PermissionsSeeder.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/staff.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/network.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/billing.php",
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/sales.php",
+		"/Users/oele/Desarrollo/projects/mym/vendor/bican/roles/src/Bican/Roles/Models/Role.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/roles/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/roles/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/RolesController.php",
+		"/Users/oele/Desarrollo/projects/mym/database/migrations/2015_01_15_105324_create_roles_table.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/app.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/composer.json",
+		"/Users/oele/Desarrollo/projects/mym/config/app.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/partials/mainheader.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Billing/Transaction.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/nodes/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/order.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Product/Product.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Product/ProductCategories.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/products/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/routers/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/monitoring.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/database/migrations/2017_05_18_103718_create_table_personal.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/ProfilesController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/queuetypes/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Models/Ticket/Ticket.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/queuetypes/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/hostpots/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Customers/CustomersController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/bandwidths/queues/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/BandwidthControlsController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/bandwidths/fullcaches/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/RoutersController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/nodes/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/NodesController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/transmitters/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/network/routers/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/partials/scripts.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/vendor/laravel/framework/src/Illuminate/Contracts/Queue/EntityResolver.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/partials/order.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/pdf/order.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Products/ProductsController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/partials/form.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Sales/PlansController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/ticket/index.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Tickets/TicketTemplateController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/account/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Billing/AccountingController.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/user.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/transactions/discharges/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/taxes/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/taxes/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/subaccount/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/subaccount/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/payment_methods/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/payment_methods/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/invoices/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/auxiliary/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/auxiliary/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/account/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/accounts/account/create.blade.php",
+		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/CitiesController.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn-danger",
+			"btn-flat",
+			"form-group",
+			"POTENC. GRAVEDAD",
+			"radio",
+			"col-md-3",
+			"checkbox",
+			"Customers",
+			"service",
+			"Service",
+			"tickets",
+			"Tickets",
+			"TicketsP",
+			"employees",
+			"EmployeesP",
+			"Network",
+			"network",
+			"Network",
+			"Settings",
+			"Customer\\",
+			"mym\\",
+			"Billing",
+			"mym\\",
+			"mym",
+			"mym\\",
+			"Orden de Trabajo",
+			"tickets",
+			"Tickets",
+			"tickets",
+			"Tickets",
+			"tickets",
+			"Tickets",
+			"tickets",
+			"Tickets",
+			"2017-04",
+			"2017-05",
+			"05-15",
+			"'2017-04-18', ",
+			"'2017-04-17', ",
+			"'2017-04-16', ",
+			"'2017-04-15', ",
+			"'2017-05-18', ",
+			"'2017-05-17', ",
+			"'2017-05-16', ",
+			"2017-05-15',",
+			"chart",
+			"'update.services',",
+			"(),",
+			"<?",
+			"</span>",
+			"<span class=\"badge\">",
+			"h5",
+			"Métodos",
+			"facturación",
+			"transmitters",
+			"Transmitters",
+			"transmitters",
+			"Transmitters",
+			"transmitters",
+			"TransmittersP",
+			"Emisores",
+			"Payment methods'",
+			"payment methods",
+			"Payment methods",
+			"payment methods",
+			"Payment methods",
+			"payment methods",
+			"Payment methods",
+			"Settings Tax",
+			";\n",
+			"fin",
+			"<div class=\"col-sm-8\">",
+			"col-sm-4 ",
+			"<div class=\"col-sm-8\">",
+			"col-sm-4 ",
+			"strong",
+			"->orderBy('user_id','asc')",
+			"orderBy('user_id','asc')",
+			"&nbsp;&nbsp;&nbsp;",
+			"residue->",
+			"table-collapse",
+			"create",
+			"download",
+			"<a class=\"btn btn-link text-b\">",
+			"<a class=\"pull-right\">",
+			"owner",
+			"' =>",
+			"update(['",
+			"@",
+			"class=\"list-group-item\"",
+			"btn-sm",
+			"btn-flat",
+			"ticket",
+			"/category",
+			"products",
+			"Products",
+			"products",
+			"Products",
+			"products",
+			"Products",
+			"ProductsP",
+			"invoice",
+			"Invoice",
+			"invoice",
+			"InvoiceP",
+			"invoice",
+			"Invoice",
+			"invoice",
+			"Tickets",
+			"ticket_category_user",
+			"toastr",
+			"        <th >Descripción</th>\n        <th width=\"10%\">Subtotal</th>\n        <th width=\"15%\">Inpuesto</th>\n        <th width=\"10%\">Total</th>",
+			"tyle=\"width: 25%;\"",
+			"width=\"20%\"",
+			"<td",
+			"style=\"width: 20%;\"",
+			"style=\"width: 25%;",
+			"style=\"text-align: center;\"",
+			"</span>",
+			"<span style=\"color: #ffffff;\">",
+			"strong",
+			"style=\"border-color: #fff;\"",
+			"background-color: royalblue;",
+			"padding:2.5px;",
+			"style=\"",
+			"royalblue;",
+			"</span>",
+			"<span style=\"color: #ffffff;\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"b",
+			"table-condensed",
+			"product",
+			".parallax-content .cd-form",
+			"INFORMACIÓN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stock.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"servicco",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"customers/sho",
+				"resources/views/customers/show.blade.php"
+			],
+			[
+				"contracts/cre",
+				"resources/views/customers/contracts/create.blade.php"
+			],
+			[
+				"services/in",
+				"resources/views/customers/services/index.blade.php"
+			],
+			[
+				"contractsco",
+				"app/Http/Controllers/Customers/ContractsController.php"
+			],
+			[
+				"servicescon",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"services/cre",
+				"resources/views/customers/services/create.blade.php"
+			],
+			[
+				"customersco",
+				"app/Http/Controllers/Customers/CustomersController.php"
+			],
+			[
+				"customers/in",
+				"resources/views/customers/index.blade.php"
+			],
+			[
+				"customers/cre",
+				"resources/views/customers/contracts/create.blade.php"
+			],
+			[
+				"contracco",
+				"app/Http/Controllers/Customers/ContractsController.php"
+			],
+			[
+				"servicec",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"routes/custo",
+				"app/Http/routes/customers.php"
+			],
+			[
+				"customers/sh",
+				"resources/views/customers/show.blade.php"
+			],
+			[
+				"partials/side",
+				"resources/views/partials/sidebar.blade.php"
+			],
+			[
+				"servicescontr",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"customerscon",
+				"app/Http/Controllers/Customers/CustomersController.php"
+			],
+			[
+				"routes/c",
+				"app/Http/routes/customers.php"
+			],
+			[
+				"customers/se",
+				"resources/views/customers/services.blade.php"
+			],
+			[
+				"customers/ser",
+				"resources/views/customers/services.blade.php"
+			],
+			[
+				"customers/inde",
+				"resources/views/customers/index.blade.php"
+			],
+			[
+				"assets/ma",
+				"resources/assets/js/main.js"
+			],
+			[
+				"roles/for",
+				"resources/views/settings/roles/partials/form.blade.php"
+			],
+			[
+				"invoicesc",
+				"app/Http/Controllers/Billing/InvoicesController.php"
+			],
+			[
+				"workorderco",
+				"app/Http/Controllers/Staff/WorkOrdersController.php"
+			],
+			[
+				"routes/staf",
+				"app/Http/routes/staff.php"
+			],
+			[
+				"partials/sde",
+				"resources/views/partials/sidebar.blade.php"
+			],
+			[
+				"workorders/in",
+				"resources/views/staff/workorders/index.blade.php"
+			],
+			[
+				"routers/ed",
+				"resources/views/network/routers/edit.blade.php"
+			],
+			[
+				"filescon",
+				"app/Http/Controllers/FilesController.php"
+			],
+			[
+				"employees/edi",
+				"resources/views/staff/employees/edit.blade.php"
+			],
+			[
+				"employeecon",
+				"app/Http/Controllers/Staff/EmployeeController.php"
+			],
+			[
+				"serviceco",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"transmitter/fo",
+				"resources/views/network/transmitters/partials/form.blade.php"
+			],
+			[
+				"create_tableemplo",
+				"database/migrations/2017_05_18_103718_create_table_employees.php"
+			],
+			[
+				"transc",
+				"app/Http/Controllers/Billing/TransactionsController.php"
+			],
+			[
+				"employeeco",
+				"app/Http/Controllers/Staff/EmployeeController.php"
+			],
+			[
+				"ticketco",
+				"app/Http/Controllers/Support/TicketsController.php"
+			],
+			[
+				"tickets",
+				"resources/views/support/tickets/ticket/show.blade.php"
+			],
+			[
+				"transmitterco",
+				"app/Http/Controllers/Networks/TransmittersController.php"
+			],
+			[
+				"servicecontrol",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"users/for",
+				"resources/views/settings/users/partials/form.blade.php"
+			],
+			[
+				"userco",
+				"app/Http/Controllers/Settings/UsersController.php"
+			],
+			[
+				"users/edi",
+				"resources/views/settings/users/edit.blade.php"
+			],
+			[
+				"employees/fo",
+				"resources/views/staff/employees/partials/form.blade.php"
+			],
+			[
+				"employee/cre",
+				"resources/views/staff/employees/create.blade.php"
+			],
+			[
+				"employee",
+				"app/Models/Staff/Employee.php"
+			],
+			[
+				"user.",
+				"app/User.php"
+			],
+			[
+				"employees/in",
+				"resources/views/staff/employees/index.blade.php"
+			],
+			[
+				"employees/edit",
+				"resources/views/staff/employees/edit.blade.php"
+			],
+			[
+				"create_table_emp",
+				"database/migrations/2017_05_18_103718_create_table_employees.php"
+			],
+			[
+				"upload.",
+				"resources/views/customers/contracts/upload.blade.php"
+			],
+			[
+				"customers/equ",
+				"resources/views/customers/services/equip.blade.php"
+			],
+			[
+				"commision",
+				"resources/views/customers/services/commission.blade.php"
+			],
+			[
+				"tickets/",
+				"resources/views/support/tickets/ticket/show.blade.php"
+			],
+			[
+				"employees/ed",
+				"resources/views/staff/employees/edit.blade.php"
+			],
+			[
+				"employees/sh",
+				"resources/views/staff/employees/partials/form.blade.php"
+			],
+			[
+				"employes/fomr",
+				"resources/views/staff/employees/partials/form.blade.php"
+			],
+			[
+				"employees/i",
+				"resources/views/staff/employees/index.blade.php"
+			],
+			[
+				"servicecontro",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"customers/show",
+				"resources/views/customers/show.blade.php"
+			],
+			[
+				"customers/com",
+				"resources/views/customers/services/commission.blade.php"
+			],
+			[
+				"services/eq",
+				"resources/views/customers/services/equip.blade.php"
+			],
+			[
+				"srvicesco",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"contractsc",
+				"app/Http/Controllers/Customers/ContractsController.php"
+			],
+			[
+				"servico",
+				"app/Http/Controllers/Customers/ServicesController.php"
+			],
+			[
+				"transactionc",
+				"app/Http/Controllers/Billing/TransactionsController.php"
+			],
+			[
+				"employees/ind",
+				"resources/views/staff/employees/index.blade.php"
+			],
+			[
+				"create_table_em",
+				"database/migrations/2017_05_18_103718_create_table_employees.php"
+			],
+			[
+				"employeer",
+				"app/Http/Controllers/Staff/EmployeeController.php"
+			],
+			[
+				"emplo",
+				"app/Models/Staff/Employee.php"
+			],
+			[
+				"tickets/sho",
+				"resources/views/support/tickets/ticket/show.blade.php"
+			],
+			[
+				"staff/employees",
+				"resources/views/staff/employees/edit.blade.php"
+			],
+			[
+				"users/create.",
+				"resources/views/settings/users/create.blade.php"
+			],
+			[
+				"settingco",
+				"app/Http/Controllers/Settings/SettingsController.php"
+			],
+			[
+				"tickets/templ",
+				"resources/views/support/tickets/templates.blade.php"
+			],
+			[
+				"tickets/cre",
+				"resources/views/support/tickets/create.blade.php"
+			],
+			[
+				"partilas/side",
+				"resources/views/partials/sidebar.blade.php"
+			],
+			[
+				"partiasl/se",
+				"resources/views/partials/sidebar.blade.php"
+			],
+			[
+				"rolesco",
+				"app/Http/Controllers/Settings/RolesController.php"
+			],
+			[
+				"mainhed",
+				"resources/views/partials/mainheader.blade.php"
+			],
+			[
+				"partials/sid",
+				"resources/views/partials/sidebar.blade.php"
+			],
+			[
+				"transac",
+				"app/Models/Billing/Transaction.php"
+			],
+			[
+				"contracts/orde",
+				"resources/views/customers/contracts/order.blade.php"
+			],
+			[
+				"nodes/cre",
+				"resources/views/network/nodes/create.blade.php"
+			],
+			[
+				"product.",
+				"app/Models/Product/Product.php"
+			],
+			[
+				"producca",
+				"app/Models/Product/ProductCategories.php"
+			],
+			[
+				"product.p",
+				"app/Models/Product/Product.php"
+			],
+			[
+				"products/inde",
+				"resources/views/products/index.blade.php"
+			],
+			[
+				"products/",
+				"resources/views/products/index.blade.php"
+			],
+			[
+				"routers/inde",
+				"resources/views/network/routers/index.blade.php"
+			],
+			[
+				"monitoring",
+				"resources/views/network/monitoring.blade.php"
+			],
+			[
+				"persmiss",
+				"database/seeds/PermissionsSeeder.php"
+			],
+			[
+				"permissio",
+				"database/seeds/PermissionsSeeder.php"
+			],
+			[
+				"create_table_per",
+				"database/migrations/2017_05_18_103718_create_table_personal.php"
+			],
+			[
+				"ticket.php",
+				"app/Models/Ticket/Ticket.php"
+			],
+			[
+				"profiles/edi",
+				"resources/views/network/profiles/queuetypes/edit.blade.php"
+			],
+			[
+				"profiles/cre",
+				"resources/views/network/profiles/queuetypes/create.blade.php"
+			],
+			[
+				"profiles/edit",
+				"resources/views/network/profiles/queuetypes/edit.blade.php"
+			],
+			[
+				"customercontr",
+				"app/Http/Controllers/Customers/CustomersController.php"
+			],
+			[
+				"bancc",
+				"app/Http/Controllers/Networks/BandwidthControlsController.php"
+			],
+			[
+				"bandwidths/",
+				"resources/views/network/bandwidths/fullcaches/create.blade.php"
+			],
+			[
+				"services/com",
+				"resources/views/customers/services/commission.blade.php"
+			],
+			[
+				"routerco",
+				"app/Http/Controllers/Networks/RoutersController.php"
+			],
+			[
+				"nodes/edit",
+				"resources/views/network/nodes/edit.blade.php"
+			],
+			[
+				"transmitters/cre",
+				"resources/views/network/transmitters/create.blade.php"
+			],
+			[
+				"routers/edi",
+				"resources/views/network/routers/edit.blade.php"
+			],
+			[
+				"routers/cre",
+				"resources/views/network/routers/create.blade.php"
+			],
+			[
+				"services/",
+				"resources/views/customers/services/commission.blade.php"
+			],
+			[
+				"partials/sc",
+				"resources/views/partials/scripts.blade.php"
+			],
+			[
+				"services/e",
+				"resources/views/customers/services/equip.blade.php"
+			],
+			[
+				"contracts/eq",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Queue/EntityResolver.php"
+			],
+			[
+				"partials/order",
+				"resources/views/customers/contracts/partials/order.blade.php"
+			],
+			[
+				"order.bla",
+				"resources/views/pdf/order.blade.php"
+			],
+			[
+				"product",
+				"app/Models/Product/Product.php"
+			],
+			[
+				"produccon",
+				"app/Http/Controllers/Products/ProductsController.php"
+			],
+			[
+				"plans/for",
+				"resources/views/sales/plans/partials/form.blade.php"
+			],
+			[
+				"plans/ed",
+				"resources/views/sales/plans/edit.blade.php"
+			],
+			[
+				"plans/cre",
+				"resources/views/sales/plans/create.blade.php"
+			],
+			[
+				"plans/c",
+				"resources/views/sales/plans/create.blade.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"customers/contracts/up",
+				"resources/views/customers/contracts/upload.blade.php"
+			],
+			[
+				"settings/ti",
+				"resources/views/settings/ticket/index.blade.php"
+			],
+			[
+				"accounts/",
+				"resources/views/billing/accounts/account/create.blade.php"
+			],
+			[
+				"app.bl",
+				"resources/views/app.blade.php"
+			],
+			[
+				"cities/edi",
+				"resources/views/settings/cities/edit.blade.php"
+			],
+			[
+				"cities/cre",
+				"resources/views/settings/cities/create.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
