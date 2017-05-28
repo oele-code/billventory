@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: StockTaking
+        psr4_prefix: StockTaking
         src_path: app

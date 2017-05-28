@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace StockTaking\Http\Controllers\Auth;
 
-use App\User;
+use StockTaking\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use StockTaking\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -42,9 +42,12 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
+            'number'   => 'required|max:12|unique:users',
+            'name'     => 'required|max:255',
+            'email'    => 'required|email|max:255|unique:users',
+            'mobile'   => 'required|max:12',
             'password' => 'required|confirmed|min:6',
+            'type'     => 'required',
         ]);
     }
 
@@ -57,9 +60,12 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+            'number'    => $data['number'],
+            'name'      => $data['name'],
+            'email'     => $data['email'],
+            'mobile'    => $data['mobile'],
+            'password'  => bcrypt($data['password']),
+            'type'      => $data['type'],
         ]);
     }
 }

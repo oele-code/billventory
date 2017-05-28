@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace StockTaking\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
