@@ -407,6 +407,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1237,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/dompdf.php",
+			"settings":
+			{
+				"buffer_size": 11079,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/sales/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 1276,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -416,12 +452,88 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "table",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
+				"bs3-pa",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3-table",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"panel",
+				"Snippet: bs3-panel-heading"
+			],
+			[
 				"table",
 				"Snippet: bs3-table-responsive"
+			],
+			[
+				"panelin",
+				"Snippet: bs3-panel-info"
+			],
+			[
+				"bs3-panel",
+				"Snippet: bs3-panel"
+			],
+			[
+				"bs3-tabs",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"bs3-gi",
+				"Snippet: bs3-icon-glyphicon"
+			],
+			[
+				"bs3-b",
+				"Snippet: bs3-button-danger"
+			],
+			[
+				"bs3-btn-g",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"bs3-btn-gorup",
+				"Snippet: bs3-link-button-group"
+			],
+			[
+				"bs3-radio",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"bs3-gr",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"bs3-btn-gr",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"pane",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"bs3-ico",
+				"Snippet: bs3-icon-glyphicon"
+			],
+			[
+				"bs3-but",
+				"Snippet: bs3-button"
+			],
+			[
+				"bs3-ro",
+				"Snippet: bs3-row-col"
+			],
+			[
+				"bs3-row-co",
+				"Snippet: bs3-row-col"
 			],
 			[
 				"panel-",
@@ -454,10 +566,6 @@
 			[
 				"bs3-btn-",
 				"Snippet: bs3-button-group"
-			],
-			[
-				"panel",
-				"Snippet: bs3-panel-heading"
 			],
 			[
 				"bs3-sele",
@@ -588,10 +696,6 @@
 				"Snippet: bs3-page header"
 			],
 			[
-				"bs3-panel",
-				"Snippet: bs3-panel-heading"
-			],
-			[
 				"bs3-pan",
 				"Snippet: bs3-panel-heading"
 			],
@@ -644,10 +748,6 @@
 				"Snippet: bs3-table-responsive"
 			],
 			[
-				"bs3-table",
-				"Snippet: bs3-table"
-			],
-			[
 				"ba",
 				"Snippet: bs3-badge"
 			],
@@ -666,10 +766,6 @@
 			[
 				"textare",
 				"Snippet: bs3-textarea"
-			],
-			[
-				"bs3-pa",
-				"Snippet: bs3-panel-danger"
 			],
 			[
 				"material",
@@ -710,10 +806,6 @@
 			[
 				"inte",
 				"Snippet: bs3-input-tel-h"
-			],
-			[
-				"form",
-				"Snippet: bs3-form-horizontal"
 			],
 			[
 				"fomr-in",
@@ -824,7 +916,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 575.0
+		"width": 399.0
 	},
 	"console":
 	{
@@ -845,10 +937,75 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/oele/Desarrollo/projects/stocktaking"
+		"/Users/oele/Desarrollo/projects/stocktaking",
+		"/Users/oele/Desarrollo/projects/stocktaking/config"
 	],
 	"file_history":
 	[
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/SalesController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/pdf/invoice.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/home.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/HomeController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Sale.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/pdf/O",
+		"/Users/oele/Desarrollo/projects/stocktaking/config/app.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/routes.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/navbar.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/sales/index.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/ProductsController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Product.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/SaleProduct.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_29_143305_create_sale_products_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_29_142546_create_sales_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/customers/create.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_03_185751_create_customers_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_03_161247_create_products_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/public/js/app.js",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/app.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/customers/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/providers/index.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Internet.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/CustomersController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/products/index.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/users/index.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Customer.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/ProvidersController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/customers/index.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/categories/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/products/form.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/CategoriesController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/UsersController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/categories/create.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/products/create.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/categories/category.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/products/category.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/providers/category.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/products/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/public/css/app.css",
+		"/Users/oele/Desarrollo/projects/stocktaking/bootstrap/app.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/auth/login.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Middleware/Authenticate.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Provider.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/User.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Category.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_03_155319_create_providers_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_03_161230_create_categories_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2017_06_03_160947_create_products_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/providers/create.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/providers/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/providers/form.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/.gitattributes",
+		"/Users/oele/Desarrollo/projects/stocktaking/.gitignore",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/users/form.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/users/edit.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/resources/views/users/create.blade.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/app/Http/Controllers/Auth/AuthController.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/oele/Desarrollo/projects/stocktaking/readme.md",
+		"/Users/oele/Desarrollo/projects/stocktaking/composer.json",
 		"/Users/oele/Desarrollo/projects/wisp/app/Http/Controllers/Customers/ContractsController.php",
 		"/Users/oele/Desarrollo/projects/wisp/app/Http/Controllers/Customers/ServicesController.php",
 		"/Users/oele/Desarrollo/projects/wisp/resources/views/customers/contracts/create.blade.php",
@@ -912,71 +1069,7 @@
 		"/Users/oele/Desarrollo/projects/mym/app/Http/routes.php",
 		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/support.php",
 		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/customers.php",
-		"/Users/oele/Desarrollo/projects/mym/database/seeds/PermissionsSeeder.php",
-		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/staff.php",
-		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/network.php",
-		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/billing.php",
-		"/Users/oele/Desarrollo/projects/mym/database/seeds/permissions/sales.php",
-		"/Users/oele/Desarrollo/projects/mym/vendor/bican/roles/src/Bican/Roles/Models/Role.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/roles/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/roles/partials/form.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/RolesController.php",
-		"/Users/oele/Desarrollo/projects/mym/database/migrations/2015_01_15_105324_create_roles_table.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/app.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/composer.json",
-		"/Users/oele/Desarrollo/projects/mym/config/app.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/partials/mainheader.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Models/Billing/Transaction.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/nodes/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/order.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Models/Product/Product.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Models/Product/ProductCategories.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/products/index.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/routers/index.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/monitoring.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/database/migrations/2017_05_18_103718_create_table_personal.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/ProfilesController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/queuetypes/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Models/Ticket/Ticket.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/queuetypes/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/profiles/hostpots/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Customers/CustomersController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/bandwidths/queues/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/BandwidthControlsController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/bandwidths/fullcaches/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/RoutersController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/nodes/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Networks/NodesController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/transmitters/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/network/routers/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/partials/scripts.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/vendor/laravel/framework/src/Illuminate/Contracts/Queue/EntityResolver.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/partials/order.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/pdf/order.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Products/ProductsController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/sales/plans/partials/form.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Sales/PlansController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/settings/ticket/index.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Tickets/TicketTemplateController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/account/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Billing/AccountingController.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/customers/contracts/user.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/transactions/discharges/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/taxes/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/taxes/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/subaccount/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/subaccount/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/payment_methods/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/payment_methods/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/invoices/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/auxiliary/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/auxiliary/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/account/edit.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/resources/views/billing/accounts/account/create.blade.php",
-		"/Users/oele/Desarrollo/projects/mym/app/Http/Controllers/Settings/CitiesController.php"
+		"/Users/oele/Desarrollo/projects/mym/database/seeds/PermissionsSeeder.php"
 	],
 	"find":
 	{
@@ -994,6 +1087,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stripe",
+			"Provider",
+			"<?",
 			"btn-danger",
 			"btn-flat",
 			"form-group",
@@ -1118,10 +1214,7 @@
 			"style=\"border-color: #fff;\"",
 			"background-color: royalblue;",
 			"padding:2.5px;",
-			"style=\"",
-			"royalblue;",
-			"</span>",
-			"<span style=\"color: #ffffff;\">"
+			"style=\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1144,8 +1237,468 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/dompdf.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								490
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										490,
+										491
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										481,
+										482
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 781.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								468
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										261,
+										265
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										261,
+										265
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/sales/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								554,
+								554
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										548,
+										553
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										388,
+										393
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1198,6 +1751,366 @@
 		"selected_items":
 		[
 			[
+				"sales/in",
+				"resources/views/sales/index.blade.php"
+			],
+			[
+				"home.bl",
+				"resources/views/home.blade.php"
+			],
+			[
+				"sale",
+				"app/Sale.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"homec",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"sales/ind",
+				"resources/views/sales/index.blade.php"
+			],
+			[
+				"salesco",
+				"app/Http/Controllers/SalesController.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"prodc",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"home",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"app.js",
+				"public/js/app.js"
+			],
+			[
+				"procutco",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"app.bl",
+				"resources/views/app.blade.php"
+			],
+			[
+				"homeco",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"provider/index",
+				"resources/views/providers/index.blade.php"
+			],
+			[
+				"provides/in",
+				"vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Internet.php"
+			],
+			[
+				"customers/edit",
+				"resources/views/customers/edit.blade.php"
+			],
+			[
+				"nabvar",
+				"resources/views/navbar.blade.php"
+			],
+			[
+				"customersco",
+				"app/Http/Controllers/CustomersController.php"
+			],
+			[
+				"navbar",
+				"resources/views/navbar.blade.php"
+			],
+			[
+				"users/inde",
+				"resources/views/users/index.blade.php"
+			],
+			[
+				"providers/in",
+				"resources/views/providers/index.blade.php"
+			],
+			[
+				"products/in",
+				"resources/views/products/index.blade.php"
+			],
+			[
+				"customers/edi",
+				"resources/views/customers/edit.blade.php"
+			],
+			[
+				"customers/cre",
+				"resources/views/customers/create.blade.php"
+			],
+			[
+				"customers/in",
+				"resources/views/customers/index.blade.php"
+			],
+			[
+				"providerco",
+				"app/Http/Controllers/ProvidersController.php"
+			],
+			[
+				"products/form",
+				"resources/views/products/form.blade.php"
+			],
+			[
+				"app.balde",
+				"resources/views/app.blade.php"
+			],
+			[
+				"productsco",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"produ",
+				"app/Product.php"
+			],
+			[
+				"productsc",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"categoriesc",
+				"app/Http/Controllers/CategoriesController.php"
+			],
+			[
+				"categories/cre",
+				"resources/views/categories/create.blade.php"
+			],
+			[
+				"categories/ed",
+				"resources/views/categories/edit.blade.php"
+			],
+			[
+				"userco",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"categories/cr",
+				"resources/views/categories/create.blade.php"
+			],
+			[
+				"products/for",
+				"resources/views/products/form.blade.php"
+			],
+			[
+				"products/cre",
+				"resources/views/products/create.blade.php"
+			],
+			[
+				"categories.blade",
+				"resources/views/categories/create.blade.php"
+			],
+			[
+				"category",
+				"resources/views/categories/category.blade.php"
+			],
+			[
+				"products/index",
+				"resources/views/products/index.blade.php"
+			],
+			[
+				"products/edi",
+				"resources/views/products/edit.blade.php"
+			],
+			[
+				"create",
+				"resources/views/products/create.blade.php"
+			],
+			[
+				"app.blade",
+				"resources/views/app.blade.php"
+			],
+			[
+				"app.",
+				"bootstrap/app.php"
+			],
+			[
+				"ap",
+				"bootstrap/app.php"
+			],
+			[
+				"app.b",
+				"resources/views/app.blade.php"
+			],
+			[
+				"app.bal",
+				"resources/views/app.blade.php"
+			],
+			[
+				"edit",
+				"resources/views/products/edit.blade.php"
+			],
+			[
+				"provideco",
+				"app/Http/Controllers/ProvidersController.php"
+			],
+			[
+				"producco",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"provide",
+				"app/Provider.php"
+			],
+			[
+				"categor",
+				"app/Category.php"
+			],
+			[
+				"cate",
+				"app/Category.php"
+			],
+			[
+				"produc",
+				"database/migrations/2017_06_03_161247_create_products_table.php"
+			],
+			[
+				"products",
+				"database/migrations/2017_06_03_161247_create_products_table.php"
+			],
+			[
+				"providers_",
+				"database/migrations/2017_06_03_155319_create_providers_table.php"
+			],
+			[
+				"categories",
+				"database/migrations/2017_06_03_161230_create_categories_table.php"
+			],
+			[
+				"create_prod",
+				"database/migrations/2017_06_03_160947_create_products_table.php"
+			],
+			[
+				"providers/form",
+				"resources/views/providers/form.blade.php"
+			],
+			[
+				"providers/cre",
+				"resources/views/providers/create.blade.php"
+			],
+			[
+				"providers/fo",
+				"resources/views/providers/form.blade.php"
+			],
+			[
+				"pro",
+				"app/Provider.php"
+			],
+			[
+				"providers/ed",
+				"resources/views/providers/edit.blade.php"
+			],
+			[
+				"providers/for",
+				"resources/views/providers/form.blade.php"
+			],
+			[
+				"providers/inde",
+				"resources/views/providers/index.blade.php"
+			],
+			[
+				"providersco",
+				"app/Http/Controllers/ProvidersController.php"
+			],
+			[
+				"provider",
+				"app/Provider.php"
+			],
+			[
+				"create_provider",
+				"database/migrations/2017_06_03_155319_create_providers_table.php"
+			],
+			[
+				"users/i",
+				"resources/views/users/index.blade.php"
+			],
+			[
+				"users/in",
+				"resources/views/users/index.blade.php"
+			],
+			[
+				"users/form.",
+				"resources/views/users/form.blade.php"
+			],
+			[
+				"form",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php"
+			],
+			[
+				"usersfor",
+				"resources/views/users/form.blade.php"
+			],
+			[
+				"authco",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"usersco",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"users/fo",
+				"resources/views/users/form.blade.php"
+			],
+			[
+				"create.",
+				"resources/views/users/create.blade.php"
+			],
+			[
+				"users/cre",
+				"resources/views/users/create.blade.php"
+			],
+			[
+				"nav",
+				"resources/views/navbar.blade.php"
+			],
+			[
+				"index.bla",
+				"resources/views/users/index.blade.php"
+			],
+			[
+				"navbar.bl",
+				"resources/views/navbar.blade.php"
+			],
+			[
+				"nabvabr",
+				"vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php"
+			],
+			[
+				"userscon",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"users",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php"
+			],
+			[
+				"create_user",
+				"database/migrations/2014_10_12_000000_create_users_table.php"
+			],
+			[
 				"servicco",
 				"app/Http/Controllers/Customers/ServicesController.php"
 			],
@@ -1224,18 +2137,6 @@
 			[
 				"services/cre",
 				"resources/views/customers/services/create.blade.php"
-			],
-			[
-				"customersco",
-				"app/Http/Controllers/Customers/CustomersController.php"
-			],
-			[
-				"customers/in",
-				"resources/views/customers/index.blade.php"
-			],
-			[
-				"customers/cre",
-				"resources/views/customers/contracts/create.blade.php"
 			],
 			[
 				"contracco",
@@ -1360,354 +2261,6 @@
 			[
 				"servicecontrol",
 				"app/Http/Controllers/Customers/ServicesController.php"
-			],
-			[
-				"users/for",
-				"resources/views/settings/users/partials/form.blade.php"
-			],
-			[
-				"userco",
-				"app/Http/Controllers/Settings/UsersController.php"
-			],
-			[
-				"users/edi",
-				"resources/views/settings/users/edit.blade.php"
-			],
-			[
-				"employees/fo",
-				"resources/views/staff/employees/partials/form.blade.php"
-			],
-			[
-				"employee/cre",
-				"resources/views/staff/employees/create.blade.php"
-			],
-			[
-				"employee",
-				"app/Models/Staff/Employee.php"
-			],
-			[
-				"user.",
-				"app/User.php"
-			],
-			[
-				"employees/in",
-				"resources/views/staff/employees/index.blade.php"
-			],
-			[
-				"employees/edit",
-				"resources/views/staff/employees/edit.blade.php"
-			],
-			[
-				"create_table_emp",
-				"database/migrations/2017_05_18_103718_create_table_employees.php"
-			],
-			[
-				"upload.",
-				"resources/views/customers/contracts/upload.blade.php"
-			],
-			[
-				"customers/equ",
-				"resources/views/customers/services/equip.blade.php"
-			],
-			[
-				"commision",
-				"resources/views/customers/services/commission.blade.php"
-			],
-			[
-				"tickets/",
-				"resources/views/support/tickets/ticket/show.blade.php"
-			],
-			[
-				"employees/ed",
-				"resources/views/staff/employees/edit.blade.php"
-			],
-			[
-				"employees/sh",
-				"resources/views/staff/employees/partials/form.blade.php"
-			],
-			[
-				"employes/fomr",
-				"resources/views/staff/employees/partials/form.blade.php"
-			],
-			[
-				"employees/i",
-				"resources/views/staff/employees/index.blade.php"
-			],
-			[
-				"servicecontro",
-				"app/Http/Controllers/Customers/ServicesController.php"
-			],
-			[
-				"customers/show",
-				"resources/views/customers/show.blade.php"
-			],
-			[
-				"customers/com",
-				"resources/views/customers/services/commission.blade.php"
-			],
-			[
-				"services/eq",
-				"resources/views/customers/services/equip.blade.php"
-			],
-			[
-				"srvicesco",
-				"app/Http/Controllers/Customers/ServicesController.php"
-			],
-			[
-				"contractsc",
-				"app/Http/Controllers/Customers/ContractsController.php"
-			],
-			[
-				"servico",
-				"app/Http/Controllers/Customers/ServicesController.php"
-			],
-			[
-				"transactionc",
-				"app/Http/Controllers/Billing/TransactionsController.php"
-			],
-			[
-				"employees/ind",
-				"resources/views/staff/employees/index.blade.php"
-			],
-			[
-				"create_table_em",
-				"database/migrations/2017_05_18_103718_create_table_employees.php"
-			],
-			[
-				"employeer",
-				"app/Http/Controllers/Staff/EmployeeController.php"
-			],
-			[
-				"emplo",
-				"app/Models/Staff/Employee.php"
-			],
-			[
-				"tickets/sho",
-				"resources/views/support/tickets/ticket/show.blade.php"
-			],
-			[
-				"staff/employees",
-				"resources/views/staff/employees/edit.blade.php"
-			],
-			[
-				"users/create.",
-				"resources/views/settings/users/create.blade.php"
-			],
-			[
-				"settingco",
-				"app/Http/Controllers/Settings/SettingsController.php"
-			],
-			[
-				"tickets/templ",
-				"resources/views/support/tickets/templates.blade.php"
-			],
-			[
-				"tickets/cre",
-				"resources/views/support/tickets/create.blade.php"
-			],
-			[
-				"partilas/side",
-				"resources/views/partials/sidebar.blade.php"
-			],
-			[
-				"partiasl/se",
-				"resources/views/partials/sidebar.blade.php"
-			],
-			[
-				"rolesco",
-				"app/Http/Controllers/Settings/RolesController.php"
-			],
-			[
-				"mainhed",
-				"resources/views/partials/mainheader.blade.php"
-			],
-			[
-				"partials/sid",
-				"resources/views/partials/sidebar.blade.php"
-			],
-			[
-				"transac",
-				"app/Models/Billing/Transaction.php"
-			],
-			[
-				"contracts/orde",
-				"resources/views/customers/contracts/order.blade.php"
-			],
-			[
-				"nodes/cre",
-				"resources/views/network/nodes/create.blade.php"
-			],
-			[
-				"product.",
-				"app/Models/Product/Product.php"
-			],
-			[
-				"producca",
-				"app/Models/Product/ProductCategories.php"
-			],
-			[
-				"product.p",
-				"app/Models/Product/Product.php"
-			],
-			[
-				"products/inde",
-				"resources/views/products/index.blade.php"
-			],
-			[
-				"products/",
-				"resources/views/products/index.blade.php"
-			],
-			[
-				"routers/inde",
-				"resources/views/network/routers/index.blade.php"
-			],
-			[
-				"monitoring",
-				"resources/views/network/monitoring.blade.php"
-			],
-			[
-				"persmiss",
-				"database/seeds/PermissionsSeeder.php"
-			],
-			[
-				"permissio",
-				"database/seeds/PermissionsSeeder.php"
-			],
-			[
-				"create_table_per",
-				"database/migrations/2017_05_18_103718_create_table_personal.php"
-			],
-			[
-				"ticket.php",
-				"app/Models/Ticket/Ticket.php"
-			],
-			[
-				"profiles/edi",
-				"resources/views/network/profiles/queuetypes/edit.blade.php"
-			],
-			[
-				"profiles/cre",
-				"resources/views/network/profiles/queuetypes/create.blade.php"
-			],
-			[
-				"profiles/edit",
-				"resources/views/network/profiles/queuetypes/edit.blade.php"
-			],
-			[
-				"customercontr",
-				"app/Http/Controllers/Customers/CustomersController.php"
-			],
-			[
-				"bancc",
-				"app/Http/Controllers/Networks/BandwidthControlsController.php"
-			],
-			[
-				"bandwidths/",
-				"resources/views/network/bandwidths/fullcaches/create.blade.php"
-			],
-			[
-				"services/com",
-				"resources/views/customers/services/commission.blade.php"
-			],
-			[
-				"routerco",
-				"app/Http/Controllers/Networks/RoutersController.php"
-			],
-			[
-				"nodes/edit",
-				"resources/views/network/nodes/edit.blade.php"
-			],
-			[
-				"transmitters/cre",
-				"resources/views/network/transmitters/create.blade.php"
-			],
-			[
-				"routers/edi",
-				"resources/views/network/routers/edit.blade.php"
-			],
-			[
-				"routers/cre",
-				"resources/views/network/routers/create.blade.php"
-			],
-			[
-				"services/",
-				"resources/views/customers/services/commission.blade.php"
-			],
-			[
-				"partials/sc",
-				"resources/views/partials/scripts.blade.php"
-			],
-			[
-				"services/e",
-				"resources/views/customers/services/equip.blade.php"
-			],
-			[
-				"contracts/eq",
-				"vendor/laravel/framework/src/Illuminate/Contracts/Queue/EntityResolver.php"
-			],
-			[
-				"partials/order",
-				"resources/views/customers/contracts/partials/order.blade.php"
-			],
-			[
-				"order.bla",
-				"resources/views/pdf/order.blade.php"
-			],
-			[
-				"product",
-				"app/Models/Product/Product.php"
-			],
-			[
-				"produccon",
-				"app/Http/Controllers/Products/ProductsController.php"
-			],
-			[
-				"plans/for",
-				"resources/views/sales/plans/partials/form.blade.php"
-			],
-			[
-				"plans/ed",
-				"resources/views/sales/plans/edit.blade.php"
-			],
-			[
-				"plans/cre",
-				"resources/views/sales/plans/create.blade.php"
-			],
-			[
-				"plans/c",
-				"resources/views/sales/plans/create.blade.php"
-			],
-			[
-				"user",
-				"app/User.php"
-			],
-			[
-				"routes",
-				"app/Http/routes.php"
-			],
-			[
-				"customers/contracts/up",
-				"resources/views/customers/contracts/upload.blade.php"
-			],
-			[
-				"settings/ti",
-				"resources/views/settings/ticket/index.blade.php"
-			],
-			[
-				"accounts/",
-				"resources/views/billing/accounts/account/create.blade.php"
-			],
-			[
-				"app.bl",
-				"resources/views/app.blade.php"
-			],
-			[
-				"cities/edi",
-				"resources/views/settings/cities/edit.blade.php"
-			],
-			[
-				"cities/cre",
-				"resources/views/settings/cities/create.blade.php"
 			]
 		],
 		"width": 0.0
@@ -1738,7 +2291,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_width": 117.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -7,9 +7,14 @@
 		<title>Stock @yield('title')</title>
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" >
 		<link rel="stylesheet" href="{{ asset('/css/app.css') }}">
-
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.3.1/css/buttons.dataTables.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.3.1/css/buttons.bootstrap.min.css">
+		<!-- Select2 CSS -->
+		<link rel="stylesheet" href="{{ asset('/css/select2.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('/css/select2-bootstrap.min.css') }}">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -18,15 +23,29 @@
 		<![endif]-->
 	</head>
 	<body>
-		@include('navbar')
-		<div class="container">
+		@if( Auth::user() )
+			@include('navbar')
+		@endif
+		<div class="container-fluid">
 			@yield('content')
 		</div>
+		<p class="small text-center">Hecho con <i class="glyphicon glyphicon-heart"></i> por <a href="http:oele.co">oele.co</a></p>
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
+		<!-- DataTables -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.html5.min.js"></script>
 		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<!-- Select JavaScript -->
+		<script src="{{ asset('/js/select2.min.js') }}"></script>
+		<!-- Bootstrap number -->
+		<script src="{{ asset('/js/bootstrap-number-input.js') }}"></script>
  		<script src="{{ asset('/js/app.js') }}"></script>
  		@yield('script')
 	</body>

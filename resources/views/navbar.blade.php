@@ -14,12 +14,15 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="{{ url('home') }}">Ventas</a></li>
-				<li><a href="#">Productos</a></li>
-				<li><a href="{{  url('#') }}">Proveedores</a></li>
-				<li><a href="#">Clientes</a></li>
-				<li><a href="#">Reportes</a></li>
+				<li><a href="{{ url('sales') }}">Ventas</a></li>
+				<li><a href="{{  url('products') }}">Productos</a></li>
+				<li><a href="{{  url('providers') }}">Proveedores</a></li>
+				<li><a href="{{  url('customers') }}">Clientes</a></li>
 				<li><a href="{{  url('users') }}">Empleados</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">{{ Auth::user()->name }}</a></li>
+			<li><a href="{{  url ('auth/logout') }}">Salir</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div>

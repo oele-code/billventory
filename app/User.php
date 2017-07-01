@@ -44,4 +44,8 @@ class User extends Model implements AuthenticatableContract,
         }
         return $this->password;
     }
+
+    public function users(){
+        return $this->hasMany('StockTaking\User');
+    }
 }

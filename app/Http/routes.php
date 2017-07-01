@@ -11,12 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'auth'], function () {
+
+	
+	Route::get('/', function () { return redirect('home'); });
+	Route::get('/home', ['as' => 'home', 'uses' => 'HomeController@index']);
+	
+	Route::get('sales/{sale}/invoice', ['as' => 'sales.invoices', 'uses' => 'SalesController@invoice']);
+	Route::resource('sales' ,'SalesController',           ['except' => ['create'] ]);
+	
+	Route::resource('users' ,'UsersController',           ['except' => ['create','show'] ]);
+	Route::resource('providers' ,'ProvidersController',   ['except' => ['create','show'] ]);
+	Route::resource('products' ,'ProductsController',     ['except' => ['create','show'] ]);
+	Route::resource('categories' ,'CategoriesController', ['except' => ['create','show'] ]);
+	Route::resource('customers' ,'CustomersController',   ['except' => ['create','show'] ]);
+
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::resource('users', 'UsersController', ['except' => ['create','show'] ]);
+// Auth
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
