@@ -35,18 +35,19 @@
 								<tbody>
 									@foreach($sales as $sale)
 									<tr class="text-center">
-										<td>
-										<a href="{{ url('sales').'/'.$sale->id }}">
-											{{ $sale->id }}	
-										</a>
-										</td>
+										<td>{{ $sale->id }}</td>
 										<td>{{ $sale->customer->fname.' '.$sale->customer->lname }}</td>
 										<td>{{ $sale->total }}</td>
 										<td>{{ $sale->user->email }}</td>
 										<td>{{ $sale->created_at->format('d/m/Y h:i a') }}</td>
-										<td><a target="_blank" href="{{ url('sales').'/'.$sale->id.'/invoice'}}" class="btn btn-sm btn-primary">
+										<td>
+										<a href="{{ url('sales').'/'.$sale->id }}" class="btn btn-default btn-sm">
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</a>
+										<a target="_blank" href="{{ url('sales').'/'.$sale->id.'/invoice'}}" class="btn btn-sm btn-primary">
 											<span class="glyphicon glyphicon-download" aria-hidden="true"></span> PDF
-										</a></td>
+										</a>
+										</td>
 									</tr>
 									@endforeach
 								</tbody>

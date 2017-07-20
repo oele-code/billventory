@@ -13,6 +13,7 @@
       <h1>Factura #{{ $invoice }}</h1>
       <div id="company" class="clearfix">
         <div>{{ $company['name'] }}</div>
+        <div>{{ $company['nit'] }}</div>
         <div>{{ $company['address'] }}</div>
         <div>{{ $company['mobile'] }}</div>
         <div><a href="{{ $company['email'] }}">{{ $company['email'] }}</a></div>

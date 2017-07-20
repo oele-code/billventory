@@ -9,9 +9,9 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" >
 		<link rel="stylesheet" href="{{ asset('/css/app.css') }}">
-		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.3.1/css/buttons.dataTables.min.css">
-		<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.3.1/css/buttons.bootstrap.min.css">
+		<link rel="stylesheet" href="{{ asset('/css/dataTables.bootstrap.min.css ') }}">
+		<link rel="stylesheet" href="{{ asset('/css/buttons.dataTables.min.css ') }}">
+		<link rel="stylesheet" href="{{ asset('/css/buttons.bootstrap.min.css') }}">
 		<!-- Select2 CSS -->
 		<link rel="stylesheet" href="{{ asset('/css/select2.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('/css/select2-bootstrap.min.css') }}">
@@ -31,14 +31,14 @@
 		</div>
 		<p class="small text-center">Hecho con <i class="glyphicon glyphicon-heart"></i> por <a href="http:oele.co">oele.co</a></p>
 		<!-- jQuery -->
-		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="{{ asset('/js/jquery.js') }}"></script>
 		<!-- DataTables -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-        <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.bootstrap.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.html5.min.js"></script>
+		<script src="{{ asset('/js/jszip.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.dataTables.min.js') }}"></script>
+        <script src="{{ asset('/js/dataTables.bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/js/dataTables.buttons.min.js') }}"></script>
+        <script src="{{ asset('/js/buttons.bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/js/buttons.html5.min.js') }}"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

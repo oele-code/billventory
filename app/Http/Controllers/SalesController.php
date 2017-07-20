@@ -128,4 +128,56 @@ class SalesController extends Controller
         //
     }
 
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function invoice($id)
+    {
+        //
+        $sale = Sale::find($id);
+
+        $data = array();
+
+        foreach($sale->products as $prod){
+            # code...
+            $item = array (
+                'qty'     =>  $prod->pivot->qty,
+                'name'    =>  $prod->reference,
+                'price'   =>  $prod->price,
+                'total'   =>  $prod->pivot->total,
+            );
+
+            array_push($data, $item);
+        }
+
+        $customer = [
+            'name'    => $sale->customer->fname.' '.$sale->customer->lname,
+            'address' => $sale->customer->address,
+            'mobile'  => $sale->customer->mobile,
+            'email'   => $sale->customer->email,
+            ];
+
+        $company = [
+            'name'    => 'MOTOREPUESTOS CASA BLANCA',
+            'nit'     => 'NIT 13472340-1',
+            'address' => 'Carrera 6 n 17-42 Agua Clara',
+            'mobile'  => '(317) 890-8505',
+            'email'   => 'gemelas-85@hotmail .com',
+            ];
+
+        $date     = date('d/m/Y');
+        $invoice  = $sale->id ;
+        $totalAll = $sale->total;
+        $view =  \View::make('pdf.invoice', compact('customer','company','date','invoice','totalAll','data'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        $file = $pdf->download('invoice');
+
+        return (new Response($file, 200))
+           ->header('Content-Type','application/pdf');
+    }
+
 }

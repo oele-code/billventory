@@ -72,9 +72,9 @@
 							</div>
 						</div>
 						
-						<button type="button" class="btn btn-primary pull-right">
+						<a target="_blank" href="{{ url('sales').'/'.$sale->id.'/invoice' }}" class="btn btn-primary pull-right">
 							<span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF
-						</button>
+						</a>
 					</div>
 					<!-- col-sm-6 -->
 
