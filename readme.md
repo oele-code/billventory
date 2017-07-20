@@ -12,7 +12,7 @@ Please create an issue to discuss or pull request accordingly.
 
 ### Security Vulnerabilities
 
-If you discover a security vulnerability within project, please send an e-mail to correo.oele@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within project, please send an e-mail to [correo.oele@gmail.com](mail:correo.oele@gmail.com) All security vulnerabilities will be promptly addressed.
 
 ### License
 
