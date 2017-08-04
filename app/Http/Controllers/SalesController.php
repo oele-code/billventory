@@ -145,7 +145,8 @@ class SalesController extends Controller
             # code...
             $item = array (
                 'qty'     =>  $prod->pivot->qty,
-                'name'    =>  $prod->reference,
+                'ref'     =>  $prod->reference,
+                'name'    =>  $prod->name,
                 'price'   =>  $prod->price,
                 'total'   =>  $prod->pivot->total,
             );

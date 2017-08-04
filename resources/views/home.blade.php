@@ -10,15 +10,16 @@
 					
 					<div class="form-group">
 			            <label for="new_product" class="col-sm-2">Producto:</label>
-			            <div class="col-sm-10">
+			            <div class="col-sm-9">
 				            <select id="new_product" name="new_product" id="new_product" class="form-control select2" style="width: 100%;">
 				            	<option value="" selected>...</option>
 				              @foreach( $products as $product)
 				              	<option value="{{ $product->id }}" data-reference="{{ $product->reference }}" data-name="{{ $product->name }}"data-price="{{ $product->price }}" >{{ $product->reference.' '.$product->name.' '.$product->category->name }}</option>
 				              @endforeach
 				            </select>
-				            <small class="text-danger">{{ $errors->first('new_product') }}</small>
+							<small class="text-danger">{{ $errors->first('new_product') }}</small>
 			            </div>
+			            <button id="btn-refresh" class="btn btn-primary pull-right" type="button"><i class="glyphicon glyphicon-refresh"></i></button>
 		      		</div>
 		      		<br>
 				</div>
@@ -116,7 +117,8 @@
 	  			    row += "<td><input type='number' name='qty[]'  value='1' min='1' class='qty form-control text-right'></td>";
 	  			    row += "<td><input type='number' name='desc[]' value='0' min='0' class='desc form-control text-right'></td>";
 	  			    row += "<td><input type='number' name='total[]' value='"+ product.data('price') +"' min='0' class='total form-control text-right' readOnly></td>";
-	  			    row += "<td><a href='#>.</a></td></tr>";
+	  			    row += "<td><a href='#!' class='btn btn-sm btn-danger remove'>";
+	  			    row += "<i class='glyphicon glyphicon-remove'></i></a></td></tr>";
 
 	  			$("#products tbody").append(row);
 
@@ -127,6 +129,15 @@
 				$('#total').val( sum );
 			}
 		})
+	   $(document).on('click',function(e){
+	   		$("#new_product").val('').trigger('change');
+	   });
+
+	   $(document).on('click',"a.remove",function(e){
+	   		
+			$('#total').val( $('#total').val() - $(this).parents('tr').find('.total').val() );
+			$(this).parents('tr').html('');
+	   });
 
 	   $(document).on('change', ".qty", function (e) {
 	   		

@@ -47,21 +47,22 @@
 										<thead>
 											<tr>
 												<th>Producto</th>
-												<th>Cantidad</th>
+												<th class="active">Costo</th>
+												<th class="active">Valor</th>
 												<th>Precio</th>
-												<th>Costo</th>
-												<th>Valor</th>
+												<th>Cantidad</th>
 												<th>Total</th>
 											</tr>
 										</thead>
 										<tbody>
 											@foreach($sale->products as $prod)
 											<tr>
-												<td>{{ $prod->reference }}</td>
-												<td>{{ $prod->pivot->qty }}</td>
+												<td>{{ $prod->reference.' '.$prod->name  }}</td>
+												<td class="active">{{ number_format( $prod->cost, 0,',','.')  }}</td>
+												<td class="active">{{ number_format( $prod->cost * $prod->pivot->qty , 0,',','.') }}</td>
+												
 												<td>{{ number_format($prod->price, 0,',','.') }}</td>
-												<td>{{ number_format( $prod->cost, 0,',','.')  }}</td>
-												<td>{{ number_format( $prod->cost * $prod->pivot->qty , 0,',','.') }}</td>
+												<td>{{ $prod->pivot->qty }}</td>
 												<td>{{ number_format( $prod->price * $prod->pivot->qty , 0,',','.') }}</td>
 											</tr>
 											@endforeach

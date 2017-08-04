@@ -14,7 +14,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="{{ url('sales') }}">Ventas</a></li>
+				<li><a href="{{ url('sales') }}">Listados de ventas</a></li>
 				<li><a href="{{  url('products') }}">Productos</a></li>
 				<li><a href="{{  url('providers') }}">Proveedores</a></li>
 				<li><a href="{{  url('customers') }}">Clientes</a></li>

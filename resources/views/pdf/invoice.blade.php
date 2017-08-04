@@ -30,7 +30,7 @@
         <thead>
           <tr>
             <th class="service">Referencia</th>
-            <th></th>
+            <th>Producto</th>
             <th>Precio</th>
             <th>Cantidad</th>
             <th>Total</th>
@@ -39,8 +39,8 @@
         <tbody>
           @for($i = 0; $i < count($data); $i++)
           <tr>
-            <td class="service">{{ $data[$i]['name'] }}</td>
-            <td></td>
+            <td class="service">{{ $data[$i]['ref'] }}</td>
+            <td>{{ $data[$i]['name'] }}</td>
             <td class="unit">{{ number_format($data[$i]['price'],0, ',','.') }}</td>
             <td class="qty">{{ $data[$i]['qty'] }}</td>
             <td class="total">{{ number_format($data[$i]['total'],0, ',','.') }}</td>

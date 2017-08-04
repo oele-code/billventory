@@ -21,7 +21,7 @@
 					<div role="tabpanel" class="tab-pane active" id="tab_1">
 						<br>
 						<div class="table-responsive">
-							<table class="table table-hover table-striped datatable">
+							<table class="table table-striped table-condensed datatable">
 								<thead>
 									<tr>
 										<th class="text-center">#</th>
@@ -58,17 +58,17 @@
 					<div role="tabpanel" class="tab-pane" id="tab_2">
 						<br>
 						<div class="table-responsive">
-							<table class="table table-hover table-striped datatable">
+							<table class="table table-hover table-condensed datatable">
 								<thead>
 									<tr>
 										<th class="text-center">#</th>
 										<th>Cliente</th>
 										<th>Factura</th>
 										<th>Referencia</th>
-										<th>Cantidad</th>
-										<th>Costo</th>
-										<th>Valor</th>
+										<th class="active">Costo</th>
+										<th class="active">Valor</th>
 										<th>Precio</th>
+										<th>Cantidad</th>
 										<th>Descuento</th>
 										<th>Total</th>
 										<th>Ganancia</th>
@@ -83,10 +83,10 @@
 											<td>{{ $detail['customer'] }}</td>
 											<td>{{ $detail['invoice'] }}</td>
 											<td>{{ $detail['reference'] }}</td>
-											<td>{{ $detail['qty'] }}</td>
-											<td>{{ $detail['cost'] }}</td>
-											<td>{{ $detail['value'] }}</td>
+											<td class="active">{{ $detail['cost'] }}</td>
+											<td class="active">{{ $detail['value'] }}</td>
 											<td>{{ $detail['price'] }}</td>
+											<td>{{ $detail['qty'] }}</td>
 											<td>{{ $detail['desc'] }}</td>
 											<td>{{ $detail['total'] }}</td>
 											<td>{{ $detail['profit'] }}</td>
