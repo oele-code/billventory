@@ -1,12 +1,11 @@
 {
-    "name": "oele-code/StockTaking",
+    "name": "oele-code/billventory",
     "description": "Inventory & Billing Manager",
     "keywords": ["Inventory", "Billing"],
-    "license": "GPLv3",
+    "license": "propietary",
     "author": {
         "name":"Osmell Caicedo",
-        "email": "correo.oele@gmail.com",
-        "uri":"http:oele.co"
+        "email": "correo.oele@gmail.com"
     },
     "type": "project",
     "require": {
