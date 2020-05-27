@@ -1,8 +1,11 @@
-/vendor
-/node_modules
+vendor
+node_modules
+bower_components
+storage/app
+storage
 Homestead.yaml
 Homestead.json
 .env
-*.sublime-project
-*.sublime-workspace
+*.DS_Store
 .DS_Store
+docker
