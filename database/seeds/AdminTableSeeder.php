@@ -15,7 +15,7 @@ class AdminTableSeeder extends Seeder
         DB::table('users')->insert([
                 'number'   => '0000000001',
                 'name'     => 'Administrador',
-                'email'    => 'admin@correo.com',
+                'email'    => 'correo.oele@gmail.com',
                 'mobile'   => '300123456',
                 'password' => bcrypt('4dm1n1str4d0r'),
                 'type'     => '1',
