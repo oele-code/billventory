@@ -11,13 +11,12 @@ class AdminTableSeeder extends Seeder
      */
     public function run()
     {
-        //
         DB::table('users')->insert([
                 'number'   => '0000000001',
                 'name'     => 'Administrador',
-                'email'    => 'correo.oele@gmail.com',
+                'email'    => 'admin@email.com',
                 'mobile'   => '300123456',
-                'password' => bcrypt('4dm1n1str4d0r'),
+                'password' => bcrypt('secret'),
                 'type'     => '1',
         ]);
     }
