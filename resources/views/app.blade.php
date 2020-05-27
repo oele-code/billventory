@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Stock @yield('title')</title>
+		<title>billventory @yield('title')</title>
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" >
@@ -29,7 +29,7 @@
 		<div class="container-fluid">
 			@yield('content')
 		</div>
-		<p class="small text-center">Hecho con <i class="glyphicon glyphicon-heart"></i> por <a href="http:oele.co">oele.co</a></p>
+		<p class="small text-center">Hecho con ❤️ por <a href="http:oele.co">oele.co</a></p>
 		<!-- jQuery -->
 		<script src="{{ asset('/js/jquery.js') }}"></script>
 		<!-- DataTables -->

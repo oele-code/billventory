@@ -31,7 +31,7 @@
 </div>
 
 <div class="form-group">
-	{!! Form::label('stock','Stock :',['class' => 'control-label col-sm-4']) !!}
+	{!! Form::label('stock','billventory :',['class' => 'control-label col-sm-4']) !!}
 	<div class="col-sm-8">
 		{!! Form::number('stock', null,['class' => 'form-control number','required','min' => '1']) !!}
 		 <small class="text-danger">{{ $errors->first('stock') }}</small>
@@ -45,7 +45,7 @@
 		 <small class="text-danger">{{ $errors->first('price') }}</small>
 	</div>
 </div>
- 
+
 <div class="form-group">
 	{!! Form::label('cost','Costo :',['class' => 'control-label col-sm-4']) !!}
 	<div class="col-sm-8">
@@ -54,7 +54,7 @@
 	</div>
 </div>
 
- 
+
 <div class="form-group">
 	{!! Form::label('user_id','Por :',['class' => 'control-label col-sm-4']) !!}
 	<div class="col-sm-8">
@@ -62,4 +62,3 @@
 		{!! Form::hidden('user_id', Auth::user()->id ) !!}
 	</div>
 </div>
-

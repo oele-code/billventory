@@ -5,7 +5,7 @@
 @section('content')
 	<div class="row">
 		<div class="col-xs-12">
-			
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
@@ -36,7 +36,7 @@
 										<th>Id</th>
 										<th>Referencia</th>
 										<th>Nombre</th>
-										<th>Stock</th>
+										<th>billventory</th>
 										<th>Precio</th>
 										<th>Costo</th>
 										<th>Categoria</th>
@@ -71,10 +71,10 @@
 							                    	@endif
 												</div>
 													@if( $product->stock == 0 )
-														{!! Form::open(['method' => 'DELETE', 'route' => ['products.destroy',$product->id], 'id' => 'form-delete-'.$product->id ]) !!} 
-			                							{!! Form::close(); !!} 
+														{!! Form::open(['method' => 'DELETE', 'route' => ['products.destroy',$product->id], 'id' => 'form-delete-'.$product->id ]) !!}
+			                							{!! Form::close(); !!}
 			                						@endif
-												
+
 											</td>
 										</tr>
 									@endforeach
@@ -114,8 +114,8 @@
 						                    	@endif
 											</div>
 												@if( count($category->products) == 0 )
-													{!! Form::open(['method' => 'DELETE', 'route' => ['categories.destroy',$category->id], 'id' => 'form-delete-'.$category->id ]) !!} 
-		                							{!! Form::close(); !!} 
+													{!! Form::open(['method' => 'DELETE', 'route' => ['categories.destroy',$category->id], 'id' => 'form-delete-'.$category->id ]) !!}
+		                							{!! Form::close(); !!}
 		                						@endif
 										</td>
 									</tr>

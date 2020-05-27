@@ -7,7 +7,7 @@
 	<div class="col-md-6 col-md-offset-3">
 		<div class="panel panel-default">
 			<div class="panel-heading text-center">
-				<h2>StockTaking</h2>
+				<h2>billventory</h2>
 			</div>
 			<div class="panel-body">
 				@if (count($errors) > 0)
