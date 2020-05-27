@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Bogota',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es_CO',
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +95,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'daily'),
 
     /*
     |--------------------------------------------------------------------------
@@ -148,7 +148,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         /** DomPDF */
         Barryvdh\DomPDF\ServiceProvider::class,
-        
+
     ],
 
     /*
@@ -201,7 +201,6 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         /** DomPDF */
         'PDF' => Barryvdh\DomPDF\Facade::class,
-
     ],
 
 ];
