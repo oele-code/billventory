@@ -1,4 +1,4 @@
-# StockTaking
+# billventory
 
 [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&style=flat-square)](https://github.com/oele-code/stocktaking)
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/oele_co)
@@ -12,7 +12,7 @@ Please create an issue to discuss or pull request accordingly.
 
 ### Security Vulnerabilities
 
-If you discover a security vulnerability within project, please send an e-mail to [correo.oele@gmail.com](mail:correo.oele@gmail.com) All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within project, please teet me at [@oele_co](mail:https://twitter.com/@oelec_co) All security vulnerabilities will be promptly addressed.
 
 ### License
 
