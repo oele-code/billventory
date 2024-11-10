@@ -13,8 +13,8 @@ class AdminTableSeeder extends Seeder
     {
         DB::table('users')->insert([
                 'number'   => '0000000001',
-                'name'     => 'Administrador',
-                'email'    => 'admin@email.com',
+                'name'     => 'John Doe',
+                'email'    => 'johndoe@example.com',
                 'mobile'   => '300123456',
                 'password' => bcrypt('secret'),
                 'type'     => '1',
