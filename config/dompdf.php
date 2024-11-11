@@ -1,7 +1,6 @@
 <?php
 
-return array(
-
+return [
     /*
     |--------------------------------------------------------------------------
     | Settings
@@ -11,9 +10,10 @@ return array(
     | in dompdf_config.inc.php. You can also override the entire config file.
     |
     */
-    'show_warnings' => false,   // Throw an Exception on warnings from dompdf
+    'show_warnings' => false,
+    // Throw an Exception on warnings from dompdf
     'orientation' => 'portrait',
-    'defines' => array(
+    'defines' => [
         /**
          * The location of the DOMPDF font directory
          *
@@ -38,8 +38,8 @@ return array(
          * Times-Roman, Times-Bold, Times-BoldItalic, Times-Italic,
          * Symbol, ZapfDingbats.
          */
-        "DOMPDF_FONT_DIR" => storage_path('fonts/'), // advised by dompdf (https://github.com/dompdf/dompdf/pull/782)
-
+        "DOMPDF_FONT_DIR" => storage_path('fonts/'),
+        // advised by dompdf (https://github.com/dompdf/dompdf/pull/782)
         /**
          * The location of the DOMPDF font cache directory
          *
@@ -49,7 +49,6 @@ return array(
          * Note: This directory must exist and be writable by the webserver process.
          */
         "DOMPDF_FONT_CACHE" => storage_path('fonts/'),
-
         /**
          * The location of a temporary directory.
          *
@@ -58,7 +57,6 @@ return array(
          * using the PFDLib back end.
          */
         "DOMPDF_TEMP_DIR" => sys_get_temp_dir(),
-
         /**
          * ==== IMPORTANT ====
          *
@@ -72,7 +70,6 @@ return array(
          * $dompdf = new DOMPDF();	$dompdf->load_html($htmldata); $dompdf->render(); $pdfdata = $dompdf->output();
          */
         "DOMPDF_CHROOT" => realpath(base_path()),
-
         /**
          * Whether to use Unicode fonts or not.
          *
@@ -83,12 +80,10 @@ return array(
          * document must be present in your fonts, however.
          */
         "DOMPDF_UNICODE_ENABLED" => true,
-
         /**
          * Whether to enable font subsetting or not.
          */
         "DOMPDF_ENABLE_FONT_SUBSETTING" => false,
-
         /**
          * The PDF rendering backend to use
          *
@@ -118,7 +113,6 @@ return array(
          * @link http://www.php.net/image
          */
         "DOMPDF_PDF_BACKEND" => "CPDF",
-
         /**
          * PDFlib license key
          *
@@ -132,7 +126,6 @@ return array(
          * a real license code must exist!
          */
         //"DOMPDF_PDFLIB_LICENSE" => "your license key here",
-
         /**
          * html target media view which should be rendered into pdf.
          * List of types and parsing rules for future extensions:
@@ -144,7 +137,6 @@ return array(
          * Therefore allow specification of content here.
          */
         "DOMPDF_DEFAULT_MEDIA_TYPE" => "screen",
-
         /**
          * The default paper size.
          *
@@ -153,7 +145,6 @@ return array(
          * @see CPDF_Adapter::PAPER_SIZES for valid sizes ('letter', 'legal', 'A4', etc.)
          */
         "DOMPDF_DEFAULT_PAPER_SIZE" => "letter",
-
         /**
          * The default font family
          *
@@ -161,7 +152,6 @@ return array(
          * @var string
          */
         "DOMPDF_DEFAULT_FONT" => "serif",
-
         /**
          * Image DPI setting
          *
@@ -196,7 +186,6 @@ return array(
          * @var int
          */
         "DOMPDF_DPI" => 96,
-
         /**
          * Enable inline PHP
          *
@@ -210,7 +199,6 @@ return array(
          * @var bool
          */
         "DOMPDF_ENABLE_PHP" => false,
-
         /**
          * Enable inline Javascript
          *
@@ -220,7 +208,6 @@ return array(
          * @var bool
          */
         "DOMPDF_ENABLE_JAVASCRIPT" => true,
-
         /**
          * Enable remote file access
          *
@@ -239,12 +226,10 @@ return array(
          * @var bool
          */
         "DOMPDF_ENABLE_REMOTE" => true,
-
         /**
          * A ratio applied to the fonts height to be more like browsers' line height
          */
         "DOMPDF_FONT_HEIGHT_RATIO" => 1.1,
-
         /**
          * Enable CSS float
          *
@@ -252,15 +237,9 @@ return array(
          * @var bool
          */
         "DOMPDF_ENABLE_CSS_FLOAT" => false,
-
-
         /**
          * Use the more-than-experimental HTML5 Lib parser
          */
         "DOMPDF_ENABLE_HTML5PARSER" => false,
-
-
-    ),
-
-
-);
+    ],
+];

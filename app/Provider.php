@@ -21,7 +21,7 @@ class Provider extends Model
     protected $fillable = ['number','fname','lname','mobile','email','address'];
 
     public function products(){
-        return $this->hasMany('App\Product');
+        return $this->hasMany(\App\Product::class);
     }
 
 }

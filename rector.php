@@ -1,22 +1,23 @@
 <?php
 
-use Rector\Laravel\Set\LaravelSetList;
-use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+declare(strict_types=1);
 
-return static function (ContainerConfigurator $containerConfigurator): void {
-    $parameters = $containerConfigurator->parameters();
+use Rector\Config\RectorConfig;
+use RectorLaravel\Set\LaravelLevelSetList;
 
-    // Define las rutas a procesar
-    $parameters->set('paths', [
+return RectorConfig::configure()
+    ->withPaths([
         __DIR__ . '/app',
-        __DIR__ . '/routes',
+        __DIR__ . '/bootstrap',
         __DIR__ . '/config',
-    ]);
-
-    // Aplica los conjuntos de reglas de Laravel y PHP 7.1
-    $parameters->set('sets', [
-        LaravelSetList::LARAVEL_54,
-        LaravelSetList::LARAVEL_55,
-        'PHP_71',
-    ]);
-};
+        __DIR__ . '/public',
+        __DIR__ . '/resources',
+        __DIR__ . '/routes',
+        __DIR__ . '/tests',
+    ])
+    ->withSets([
+        LaravelLevelSetList::UP_TO_LARAVEL_60,
+    ])
+    // uncomment to reach your current PHP version
+    ->withPhpSets()
+    ->withTypeCoverageLevel(0);

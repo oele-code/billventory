@@ -23,7 +23,7 @@ class SalesController extends Controller
     {
         //
         $sales = Sale::all();
-        $details = array();
+        $details = [];
 
         foreach($sales as $sale){
             foreach($sale->products as $prod){
@@ -139,17 +139,11 @@ class SalesController extends Controller
         //
         $sale = Sale::find($id);
 
-        $data = array();
+        $data = [];
 
         foreach($sale->products as $prod){
             # code...
-            $item = array (
-                'qty'     =>  $prod->pivot->qty,
-                'ref'     =>  $prod->reference,
-                'name'    =>  $prod->name,
-                'price'   =>  $prod->price,
-                'total'   =>  $prod->pivot->total,
-            );
+            $item = ['qty'     =>  $prod->pivot->qty, 'ref'     =>  $prod->reference, 'name'    =>  $prod->name, 'price'   =>  $prod->price, 'total'   =>  $prod->pivot->total];
 
             array_push($data, $item);
         }
