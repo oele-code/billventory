@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Category;
+use App\Models\Category;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Product;
-use App\Provider;
+use App\Models\Product;
+use App\Models\Provider;
 use Illuminate\Support\Facades\DB;
 
 class CategoriesController extends Controller

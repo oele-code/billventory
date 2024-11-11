@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Product;
-use App\Provider;
-use App\Category;
+use App\Models\Product;
+use App\Models\Provider;
+use App\Models\Category;
 
 use Datatables;
 use DB;

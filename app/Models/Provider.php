@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,7 +21,7 @@ class Provider extends Model
     protected $fillable = ['number','fname','lname','mobile','email','address'];
 
     public function products(){
-        return $this->hasMany(\App\Product::class);
+        return $this->hasMany(\App\Models\Product::class);
     }
 
 }

@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Customer;
+use App\Models\Customer;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Provider;
+use App\Models\Provider;
 
 class CustomersController extends Controller
 {

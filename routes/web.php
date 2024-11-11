@@ -1,5 +1,12 @@
 <?php
 
+use App\Http\Controllers\CategoriesController;
+use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\ProvidersController;
+use App\Http\Controllers\SalesController;
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 /*
@@ -16,21 +23,18 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-Route::group(['middleware' => 'auth'], function () {
+Route::group(['middleware' => 'auth'], function (): void {
 
 
-	Route::get('/', function () { return redirect('home'); });
-	Route::get('/home', ['as' => 'home', 'uses' => 'HomeController@index']);
+	Route::get('/', fn() => redirect('home'));
+	Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-	Route::get('sales/{sale}/invoice', ['as' => 'sales.invoices', 'uses' => 'SalesController@invoice']);
-	Route::resource('sales' ,'SalesController',           ['except' => ['create'] ]);
+	Route::get('sales/{sale}/invoice', [SalesController::class, 'invoice'])->name('sales.invoices');
+	Route::resource('sales' ,SalesController::class,           ['except' => ['create'] ]);
 
-	Route::resource('users' ,'UsersController',           ['except' => ['create','show'] ]);
-	Route::resource('providers' ,'ProvidersController',   ['except' => ['create','show'] ]);
-	Route::resource('products' ,'ProductsController',     ['except' => ['create','show'] ]);
-	Route::resource('categories' ,'CategoriesController', ['except' => ['create','show'] ]);
-	Route::resource('customers' ,'CustomersController',   ['except' => ['create','show'] ]);
-
+	Route::resource('users' ,UsersController::class,           ['except' => ['create','show'] ]);
+	Route::resource('providers' ,ProvidersController::class,   ['except' => ['create','show'] ]);
+	Route::resource('products' ,ProductsController::class,     ['except' => ['create','show'] ]);
+	Route::resource('categories' ,CategoriesController::class, ['except' => ['create','show'] ]);
+	Route::resource('customers' ,CustomersController::class,   ['except' => ['create','show'] ]);
 });
-
-// Auth

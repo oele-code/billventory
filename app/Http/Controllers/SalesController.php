@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-use App\Sale;
-use App\Product;
+use App\Models\Sale;
+use App\Models\Product;
 use Session;
 
 use App\Http\Requests;
@@ -63,9 +63,9 @@ class SalesController extends Controller
                     'user_id'     =>  \Auth::user()->id,
                 ]);
 
-        for ($i=0; $i < count($request->prod_id) ; $i++) { 
+        for ($i=0; $i < count($request->prod_id) ; $i++) {
             # code...
-            
+
             $product = Product::find($request->prod_id[$i]);
             $product->stock = $product->stock - $request->qty[$i];
             $product->save();
@@ -73,7 +73,7 @@ class SalesController extends Controller
             $sale->products()->attach($request->prod_id[$i], [
                     'qty' => $request->qty[$i],
                     'desc' => $request->desc[$i],
-                    'total' => $request->total[$i] 
+                    'total' => $request->total[$i]
                 ]);
         }
 

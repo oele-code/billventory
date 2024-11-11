@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,16 +21,16 @@ class Sale extends Model
     protected $fillable = ['customer_id','total','user_id','user_id'];
 
     public function customer(){
-    	return $this->belongsTo(\App\Customer::class,'customer_id');
+    	return $this->belongsTo(\App\Models\Customer::class,'customer_id');
     }
 
     public function user(){
-    	return $this->belongsTo(\App\User::class,'user_id');
+    	return $this->belongsTo(\App\Models\User::class,'user_id');
     }
 
     public function products()
     {
-        return $this->belongsToMany(\App\Product::class,'sale_products', 'sale_id', 'product_id')
+        return $this->belongsToMany(\App\Models\Product::class,'sale_products', 'sale_id', 'product_id')
                     ->withPivot('qty', 'desc','total')->withTimestamps();
 
     }
