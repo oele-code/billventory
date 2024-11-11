@@ -16,7 +16,7 @@ return RectorConfig::configure()
         __DIR__ . '/tests',
     ])
     ->withSets([
-        LaravelLevelSetList::UP_TO_LARAVEL_60,
+        LaravelLevelSetList::UP_TO_LARAVEL_70,
     ])
     // uncomment to reach your current PHP version
     ->withPhpSets()
