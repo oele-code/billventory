@@ -25,7 +25,6 @@ Auth::routes();
 
 Route::group(['middleware' => 'auth'], function (): void {
 
-
 	Route::get('/', fn() => redirect('home'));
 	Route::get('/home', [HomeController::class, 'index'])->name('home');
 

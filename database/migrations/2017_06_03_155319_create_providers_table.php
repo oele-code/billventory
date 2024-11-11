@@ -13,7 +13,7 @@ class CreateProvidersTable extends Migration
     public function up()
     {
         Schema::create('providers', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integerIncrements('id');
             $table->string('number');
             $table->string('fname');
             $table->string('lname');

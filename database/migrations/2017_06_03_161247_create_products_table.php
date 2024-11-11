@@ -13,7 +13,7 @@ class CreateProductsTable extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integerIncrements('id');
             $table->integer('provider_id')->unsigned();
             $table->foreign('provider_id')->references('id')->on('providers');
             $table->integer('category_id')->unsigned();
