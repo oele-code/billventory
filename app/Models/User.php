@@ -45,7 +45,7 @@ class User extends Authenticatable
         return $this->password;
     }
 
-    public function users(){
-        return $this->hasMany(\App\Models\User::class);
+    public function sales(){
+        return $this->hasMany(\App\Models\Sale::class);
     }
 }

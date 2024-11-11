@@ -43,15 +43,15 @@
 											<a role="button" href="{{ url( 'users/'.$user->id.'/edit') }}" class="btn btn-primary">
 												<span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar
 											</a>
-											@if($user->type != 1 && count($user->products) == 0 ) )
+											@if( $user->type != 1 && $user->sales_count > 1 )
 					                    	<button role="button" type="submit" class="btn btn-danger" form="form-delete-{{ $user->id }}">
 					                    		<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Eliminar
 					                    	</button>
 					                    	@endif
 										</div>
-										@if( $user->type != 1 && count($user->products) == 0 ) )
-											{!! Form::open(['method' => 'DELETE', 'route' => ['users.destroy',$user->id], 'id' => 'form-delete-'.$user->id ]) !!} 
-	                						{!! Form::close(); !!} 
+										@if( $user->type != 1 && $user->sales_count > 1 )
+											{!! Form::open(['method' => 'DELETE', 'route' => ['users.destroy',$user->id], 'id' => 'form-delete-'.$user->id ]) !!}
+	                						{!! Form::close(); !!}
                 						@endif
 									</td>
 								</tr>

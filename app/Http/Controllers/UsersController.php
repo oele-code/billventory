@@ -18,7 +18,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users = User::all();
+        $users = User::withCount('sales')->get();
         return view('users.index',['users' => $users]);
     }
 

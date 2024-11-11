@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{ url('home') }}">billventory</a>
+			<a class="navbar-brand" href="{{ url('home') }}">Carnes Gelviz</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
