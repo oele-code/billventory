@@ -22,7 +22,10 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 			<li><a href="#">{{ Auth::user()->name }}</a></li>
-			<li><a href="{{  url ('auth/logout') }}">Salir</a></li>
+			<li><a href="{{  route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">Salir</a></li>
+			<form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+				{{ csrf_field() }}
+			</form>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div>

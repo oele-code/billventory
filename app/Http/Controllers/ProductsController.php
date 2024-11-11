@@ -24,9 +24,9 @@ class ProductsController extends Controller
     {
         //
         $products       = Product::all();
-        $providers      = Provider::select(DB::raw("CONCAT(number,' ',fname,' ',lname) AS user, id"))->lists('user','id');
+        $providers      = Provider::select(DB::raw("CONCAT(number,' ',fname,' ',lname) AS user, id"))->pluck('user','id');
         $categories     = Category::all();
-        $listCategories = Category::lists('name','id');
+        $listCategories = Category::pluck('name','id');
         return view('products.index',[
             'products'       => $products,
             'providers'      => $providers,
@@ -59,9 +59,9 @@ class ProductsController extends Controller
         //
         $product        = Product::find($id);
         $products       = Product::all();
-        $providers      = Provider::select(DB::raw("CONCAT(number,' ',fname,' ',lname) AS user, id"))->lists('user','id');
+        $providers      = Provider::select(DB::raw("CONCAT(number,' ',fname,' ',lname) AS user, id"))->pluck('user','id');
         $categories     = Category::all();
-        $listCategories = Category::lists('name','id');
+        $listCategories = Category::pluck('name','id');
 
         return view('products.index',[
             'products'       => $products,
