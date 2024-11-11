@@ -1,6 +1,6 @@
 <?php
 
-namespace StockTaking;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,7 +21,7 @@ class Provider extends Model
     protected $fillable = ['number','fname','lname','mobile','email','address'];
 
     public function products(){
-        return $this->hasMany('StockTaking\Product');
+        return $this->hasMany('App\Product');
     }
 
 }

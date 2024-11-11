@@ -1,11 +1,11 @@
 <?php
 
-namespace StockTaking\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use StockTaking\Category;
-use StockTaking\Http\Requests;
-use StockTaking\Http\Controllers\Controller;
+use App\Category;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class CategoriesController extends Controller
 {   

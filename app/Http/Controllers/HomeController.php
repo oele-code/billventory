@@ -1,15 +1,15 @@
 <?php
 
-namespace StockTaking\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use StockTaking\Customer;
-use StockTaking\Product;
-use StockTaking\Sale;
+use App\Customer;
+use App\Product;
+use App\Sale;
 
-use StockTaking\Http\Requests;
-use StockTaking\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace StockTaking\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use StockTaking\Product;
-use StockTaking\Provider;
-use StockTaking\Category;
+use App\Product;
+use App\Provider;
+use App\Category;
 
 use Datatables;
 use DB;
-use StockTaking\Http\Requests;
-use StockTaking\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class ProductsController extends Controller
 {

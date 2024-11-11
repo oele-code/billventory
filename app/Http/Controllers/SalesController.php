@@ -1,16 +1,16 @@
 <?php
 
-namespace StockTaking\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-use StockTaking\Sale;
-use StockTaking\Product;
+use App\Sale;
+use App\Product;
 use Session;
 
-use StockTaking\Http\Requests;
-use StockTaking\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class SalesController extends Controller
 {

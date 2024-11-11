@@ -1,6 +1,6 @@
 <?php
 
-namespace StockTaking;
+namespace App;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -46,6 +46,6 @@ class User extends Model implements AuthenticatableContract,
     }
 
     public function users(){
-        return $this->hasMany('StockTaking\User');
+        return $this->hasMany('App\User');
     }
 }

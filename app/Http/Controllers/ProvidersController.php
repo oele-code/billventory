@@ -1,13 +1,13 @@
 <?php
 
-namespace StockTaking\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use StockTaking\Provider;
+use App\Provider;
 
-use StockTaking\Http\Requests;
-use StockTaking\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class ProvidersController extends Controller
 {

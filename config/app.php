@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        StockTaking\Providers\AppServiceProvider::class,
-        StockTaking\Providers\AuthServiceProvider::class,
-        StockTaking\Providers\EventServiceProvider::class,
-        StockTaking\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
         /** Laravel Collactive */
         Collective\Html\HtmlServiceProvider::class,
         /** DomPDF */
