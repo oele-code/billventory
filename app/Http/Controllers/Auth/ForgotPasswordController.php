@@ -13,20 +13,10 @@ class ForgotPasswordController extends Controller
     |--------------------------------------------------------------------------
     |
     | This controller is responsible for handling password reset emails and
-    | includes a trait ForgotPasswordController assists in sending these notifications from
+    | includes a trait which assists in sending these notifications from
     | your application to your users. Feel free to explore this trait.
     |
     */
 
     use SendsPasswordResetEmails;
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('guest');
-    }
 }

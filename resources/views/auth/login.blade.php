@@ -54,7 +54,7 @@
 								Ingresar
 							</button>
 
-							<a href="/password/email">Olvido su contraseña?</a>
+							<a href="/password/reset/">Restablecer contraseña</a>
 						</div>
 					</div>
 				</form>
