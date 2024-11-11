@@ -8,6 +8,7 @@ use App\Customer;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Provider;
 
 class CustomersController extends Controller
 {
@@ -47,7 +48,8 @@ class CustomersController extends Controller
         //
         $customers = Customer::all();
         $customer  = Customer::find($id);
-        return view('providers.index',['customers' => $customers ,'customerEdit' => $customer ]);
+
+        return view('customers.index',['customers' => $customers ,'customerEdit' => $customer ]);
     }
 
     /**
@@ -59,8 +61,7 @@ class CustomersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
-        $customer = Provider::find($id);
+        $customer = Customer::find($id);
         $customer->update($request->all());
         return redirect('customers');
     }

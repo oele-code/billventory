@@ -29,7 +29,7 @@
 		<div class="container-fluid">
 			@yield('content')
 		</div>
-		<p class="small text-center">Hecho con ❤️ por <a href="http:oele.co">oele.co</a></p>
+		<p class="small text-center">Hecho con ❤️ por <a href="http:oele.dev">oele.dev</a></p>
 		<!-- jQuery -->
 		<script src="{{ asset('/js/jquery.js') }}"></script>
 		<!-- DataTables -->

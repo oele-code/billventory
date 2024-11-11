@@ -6,9 +6,12 @@ use Illuminate\Http\Request;
 use App\Category;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Product;
+use App\Provider;
+use Illuminate\Support\Facades\DB;
 
 class CategoriesController extends Controller
-{   
+{
 
     /**
      * Store a newly created resource in storage.

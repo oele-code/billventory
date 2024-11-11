@@ -54,8 +54,8 @@
 					                    	@endif
 										</div>
 											@if( count($provider->products) == 0 )
-												{!! Form::open(['method' => 'DELETE', 'route' => ['providers.destroy',$provider->id], 'id' => 'form-delete-'.$provider->id ]) !!} 
-	                							{!! Form::close(); !!} 
+												{!! Form::open(['method' => 'DELETE', 'route' => ['providers.destroy',$provider->id], 'id' => 'form-delete-'.$provider->id ]) !!}
+	                							{!! Form::close(); !!}
 	                						@endif
 									</td>
 								</tr>
