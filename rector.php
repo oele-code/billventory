@@ -5,15 +5,18 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigura
 
 return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters = $containerConfigurator->parameters();
+
+    // Define las rutas a procesar
     $parameters->set('paths', [
         __DIR__ . '/app',
         __DIR__ . '/routes',
         __DIR__ . '/config',
-        __DIR__ . '/database',
-        __DIR__ . '/resources',
     ]);
+
+    // Aplica los conjuntos de reglas de Laravel y PHP 7.1
     $parameters->set('sets', [
-        LaravelSetList::LARAVEL_52,
-        LaravelSetList::LARAVEL_53,
+        LaravelSetList::LARAVEL_54,
+        LaravelSetList::LARAVEL_55,
+        'PHP_71',
     ]);
 };
